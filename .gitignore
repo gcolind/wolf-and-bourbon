@@ -4,11 +4,11 @@
 .DS_Store
 latest.tar.gz
 ./wordpress/
-/wordpress/
 /wp-tests/
-
-# Include Theme files
-!/wordpress/wp-content/themes/crates*
+/files/
+/puppet/
+/wordpress/wp-includes
+/wordpress/wp-admin
 
 # Source: https://github.com/github/gitignore/blob/master/WordPress.gitignore
 *.log
